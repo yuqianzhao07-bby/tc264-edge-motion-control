@@ -1,0 +1,29 @@
+# 编译输出（只忽略产物，保留工程配置）
+Debug/
+*.o
+*.d
+*.elf
+*.hex
+*.map
+*.mdf
+*.src
+*.opt
+
+# 临时文件
+*.bak
+*.tmp
+*.log
+*.swp
+
+# IDE 本地元数据（.project/.cproject 需要提交，用于 ADS 导入）
+.settings/
+.metadata/
+.vscode/
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# 文档临时文件
+*.docx~
+*.pdf~
