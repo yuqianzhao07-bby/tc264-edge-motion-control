@@ -44,7 +44,7 @@
 3. 克隆本仓库：
 
 ```bash
-git clone https://github.com/<你的用户名>/tc264-edge-motion-control.git
+git clone https://github.com/yuqianzhao07-bby/tc264-edge-motion-control.git
 ```
 
 ### 2. 导入与编译
