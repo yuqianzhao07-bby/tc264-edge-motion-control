@@ -788,7 +788,7 @@ int core0_main(void)
 
             my_motor_set_speed((uint32)l_duty, (uint32)r_duty);
 
-#if 0  // [调试] 10秒自动停止 — 竞赛时设为0禁用
+#if 0  // [调试] 10秒自动停止 — 演示模式下设为0禁用
             // ===== 10秒自动停止 (约500帧 @~50fps, 采集干净PID调参波形) =====
             if (g_frame_process_count >= 500)
             {
